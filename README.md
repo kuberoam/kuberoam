@@ -49,5 +49,6 @@ If you need private support or have business inquiries, you can reach out to us 
 
 ### Links
 - [Website](https://kuberoam.dev/)
+- [Support](https://kuberoam.dev/support)
 - [Privacy Policy](https://kuberoam.dev/privacy-policy)
 - [Terms of Service](https://kuberoam.dev/terms-of-service)
