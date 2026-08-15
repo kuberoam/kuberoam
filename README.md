@@ -2,8 +2,8 @@
 
 ![Roam Banner](https://kuberoam.dev/feature_graphic.png)
 
-[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/app/id6794656342)
-[![Get it on Google Play](https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png)](https://play.google.com/store/apps/details?id=dev.roam)
+<a href="https://apps.apple.com/app/id6794656342"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="40"></a>
+<a href="https://play.google.com/store/apps/details?id=dev.roam"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60"></a>
 
 Welcome to the official public repository for **Roam**! 
 *Note: This repository does not contain the application source code. It serves as a centralized hub for our users to discover the app, report issues, and request new features.*
