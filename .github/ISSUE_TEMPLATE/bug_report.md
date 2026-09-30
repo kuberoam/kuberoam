@@ -23,10 +23,12 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots or screen recordings to help explain your problem.
 
 **Device Information:**
- - OS: [e.g. iOS 16.5, Android 13]
- - Device: [e.g. iPhone 14 Pro, Samsung Galaxy S23]
- - App Version: [e.g. 1.0.5]
+ - App: [Mobile / Desktop]
+ - OS: [e.g. iOS 16.5, Android 13, macOS 15, Windows 11, Ubuntu 24.04]
+ - Device: [e.g. iPhone 14 Pro, Samsung Galaxy S23, MacBook Pro M3]
+ - App Version: [e.g. 1.0.5 — on desktop: Settings → About]
  - Kubernetes Version: [e.g. v1.28.2]
+ - Cluster type: [e.g. EKS, GKE, AKS, kind, self-hosted]
 
 **Additional context**
 Add any other context about the problem here.
