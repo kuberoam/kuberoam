@@ -11,7 +11,7 @@
 ### 📱 Mobile
 
 <a href="https://apps.apple.com/app/id6794656342"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" height="40"></a>
-<a href="https://play.google.com/store/apps/details?id=dev.roam"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60"></a>
+<a href="https://play.google.com/store/apps/details?id=dev.roam"><img src=".github/assets/google-play-badge.png" alt="Get it on Google Play" height="40"></a>
 
 ### 🖥️ Desktop
 
