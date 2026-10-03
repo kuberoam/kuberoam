@@ -21,9 +21,10 @@
 | **Windows** on ARM | [Roam-windows-arm64-installer.exe](https://github.com/kuberoam/kuberoam/releases/latest/download/Roam-windows-arm64-installer.exe) |
 | **Ubuntu 24.04+ / Debian 13+** (x64) | [.deb](https://github.com/kuberoam/kuberoam/releases/latest/download/Roam-linux-amd64.deb) · [.tar.gz](https://github.com/kuberoam/kuberoam/releases/latest/download/Roam-linux-amd64.tar.gz) |
 | **Ubuntu 24.04+ / Debian 13+** (ARM64) | [.deb](https://github.com/kuberoam/kuberoam/releases/latest/download/Roam-linux-arm64.deb) · [.tar.gz](https://github.com/kuberoam/kuberoam/releases/latest/download/Roam-linux-arm64.tar.gz) |
-| **macOS** 13+ | Coming soon to the Mac App Store |
+| **macOS** 13+ (Apple silicon & Intel) | [Roam-macos-universal.dmg](https://github.com/kuberoam/kuberoam/releases/latest/download/Roam-macos-universal.dmg) |
 
-- **Windows:** the installer isn't code-signed yet. If SmartScreen shows *"Windows protected your PC"*, choose **More info → Run anyway**. It installs WebView2 if your PC doesn't have it.
+- **macOS:** signed and notarized by Apple. Open the DMG and drag Roam to Applications. The Mac App Store version is coming soon.
+- **Windows:** the installer isn't code-signed yet. If SmartScreen shows *"Windows protected your PC"*, choose **More info → Run anyway**. It installs WebView2 if your PC doesn't have it. Roam is coming to the Microsoft Store as *Kuberoam*.
 - **Linux:** `sudo apt install ./Roam-linux-amd64.deb` pulls in GTK and WebKitGTK 4.1. The `.tar.gz` holds the `roam` binary for other distributions with those libraries.
 - Every release has a `SHA256SUMS` file. Roam checks [Releases](https://github.com/kuberoam/kuberoam/releases) for updates and verifies downloads against it.
 
@@ -38,8 +39,9 @@ The same client, rebuilt for a big screen and a keyboard — apps instead of res
 * **Changes**: every change to the cluster while Roam runs — who made it (kubectl, Helm, Argo CD), the exact diff, and one-click revert.
 * **Health checks**: reliability, security and efficiency scores, and what blocks your next Kubernetes upgrade.
 * **Apps and an app map**: Deployments, StatefulSets, Services and Ingresses grouped into apps, with how traffic flows.
-* **Logs, shells and files**: live logs with search and severity highlighting, container shells, pod files, and a kubectl/helm terminal (kubectl and helm are built into Roam).
+* **Logs, shells and files**: live logs with search and severity highlighting, container and node shells (`chroot /host` included), pod files, and a kubectl/helm terminal (kubectl and helm are built into Roam).
 * **Helm, metrics and add-ons**: release history, values diff, upgrade and rollback; metrics with rollouts drawn on the charts; cert-manager, Prometheus Operator and any CRD.
+* **TLS certificates**: Secrets holding certificates show their expiry, whether the private key matches and whether the chain verifies, with every field of each certificate.
 * **Connect your way**: kubeconfig, service-account token, or sign in to Amazon EKS, Google GKE and Azure AKS; SSH bastions supported.
 * **Optional AI, bring your own**: explain an incident with an OpenAI-compatible API or a local Ollama model. Off until you configure it.
 
