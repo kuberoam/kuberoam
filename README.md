@@ -15,6 +15,8 @@
 
 ### 🖥️ Desktop
 
+<a href="https://apps.microsoft.com/detail/9pdm746qxq7t"><img src="https://get.microsoft.com/images/en-us%20dark.svg" alt="Get it from Microsoft" height="40"></a>
+
 | System | Download |
 |---|---|
 | **Windows** 10/11 (x64) | [Roam-windows-amd64-installer.exe](https://github.com/kuberoam/kuberoam/releases/latest/download/Roam-windows-amd64-installer.exe) |
@@ -24,7 +26,7 @@
 | **macOS** 13+ (Apple silicon & Intel) | [Roam-macos-universal.dmg](https://github.com/kuberoam/kuberoam/releases/latest/download/Roam-macos-universal.dmg) |
 
 - **macOS:** signed and notarized by Apple. Open the DMG and drag Roam to Applications. The Mac App Store version is coming soon.
-- **Windows:** the installer isn't code-signed yet. If SmartScreen shows *"Windows protected your PC"*, choose **More info → Run anyway**. It installs WebView2 if your PC doesn't have it. Roam is coming to the Microsoft Store as *Kuberoam*.
+- **Windows:** get Roam from the [Microsoft Store](https://apps.microsoft.com/detail/9pdm746qxq7t) (as *Kuberoam*); it updates itself. The installers above aren't code-signed yet: if SmartScreen shows *"Windows protected your PC"*, choose **More info → Run anyway**. They install WebView2 if your PC doesn't have it.
 - **Linux:** `sudo apt install ./Roam-linux-amd64.deb` pulls in GTK and WebKitGTK 4.1. The `.tar.gz` holds the `roam` binary for other distributions with those libraries.
 - Every release has a `SHA256SUMS` file. Roam checks [Releases](https://github.com/kuberoam/kuberoam/releases) for updates and verifies downloads against it.
 
