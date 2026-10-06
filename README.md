@@ -44,7 +44,7 @@ The same client, rebuilt for a big screen and a keyboard — apps instead of res
 * **Logs, shells and files**: live logs with search and severity highlighting, container and node shells (`chroot /host` included), pod files, and a kubectl/helm terminal (kubectl and helm are built into Roam).
 * **Helm, metrics and add-ons**: release history, values diff, upgrade and rollback; metrics with rollouts drawn on the charts; cert-manager, Prometheus Operator and any CRD.
 * **TLS certificates**: Secrets holding certificates show their expiry, whether the private key matches and whether the chain verifies, with every field of each certificate.
-* **Connect your way**: kubeconfig, service-account token, or sign in to Amazon EKS, Google GKE and Azure AKS; SSH bastions supported.
+* **Connect your way**: kubeconfig, service-account token, or sign in to Amazon EKS, Google GKE (with your Google account) and Azure AKS; SSH bastions supported. Signing in through the browser brings Roam back when you're done.
 * **Optional AI, bring your own**: explain an incident with an OpenAI-compatible API or a local Ollama model. Off until you configure it.
 
 ## 📱 Roam for Mobile
