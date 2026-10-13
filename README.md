@@ -79,7 +79,7 @@ We want to build the best Kubernetes experience for you. If you run into a probl
 ## 📩 Support & Contact
 
 For private support or business inquiries:
-📧 **Email**: richardpham201@gmail.com
+📧 **Email**: support@richardpham.com
 
 ---
 
